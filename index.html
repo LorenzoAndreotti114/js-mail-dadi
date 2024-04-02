@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container" id="hContainer">
+            <div class="inner-header">
+
+                <label for="email" class="email-text">Inserire Email </label>
+                <input type="text" class="email-text" id="emailInput" placeholder="@gmail.com">
+                <input type="button" class="email-btn" id="getBtn" value="Invia">
+                <input type="button" class="email-btn" id="undoBtn" value="Annulla">
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="main-container null" id="containerMain">
+
+            <div class="main-btn-container">
+                <input type="button" class="main-btn" id="mainRoll" value="DICE ROLL">
+            </div>
+
+            <div class="inner-main">
+
+                <div class="card">
+                    <h2>Dice roll Player</h2>
+
+                    <div class="dice" id="dice1"></div>
+                    <div class="result" id="result1"></div>
+                </div>
+
+                <div class="card">
+                    <h2>Dice roll Computer</h2>
+
+                    <div class="dice" id="dice2"></div>
+                    <div class="result" id="result2"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+-Chiedere all’utente la sua email
+-controllare che sia nella lista di chi può accedere
+-stampare un messaggio appropriato sull’esito del controllo
+-se è ok allora rimuovi l'header e fai comparire il main
+
+-Generare un numero random da 1 a 6, sia per il giocatore sia per il computer
+-controllare i numeri e inserirli nel DOM
+-Stabilire il vincitore in base a chi fa il punteggio più alto
+-trascrivere i risultati
